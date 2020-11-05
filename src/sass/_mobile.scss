@@ -1,0 +1,93 @@
+/*-- Mobile --*/
+@media (max-width: $mobile) {
+
+    /*-- Header, Navigation & Footer --*/
+
+    .desktopMenu {
+        display: none;
+    }
+
+    header {
+        text-align: center;
+        padding: 0 2%;
+    }
+
+    .logo {
+        max-width: 100%;
+        height: auto;
+        margin: 4% 0;
+    }
+
+    .menuItem img {
+        float: left;
+        background: $blue;
+        width: 14.7%;
+        padding: 1% 5%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 3px;
+        margin-right: 0.3%;
+    }
+    
+    .menuItem img:hover {
+        background: $grey;
+    }
+
+    .menuItemActive img {
+        background: $light;
+    }
+
+    footer {
+        text-align: center;
+        width: 100%;
+        height: 100px;
+        padding-bottom: 1%;
+    }
+
+    /*-- Main Content --*/
+
+    main {
+        padding: 4% 4% 1% 4%;
+    }
+
+    article img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    h2 {
+        font-size: 0.9em;
+        color: $dark-grey;
+    }
+
+    .tourwrap h2 {
+        padding-bottom: 2%;
+    }
+
+    p {
+        padding: 2% 0;
+    }
+
+    .imgLarge {
+        display: none;
+    }
+
+    .imgDescription {
+        padding: 1% 0 2%;
+        font-style: italic;
+        font-size: 0.9em;
+    }
+
+    .tourWrap {
+        padding: 3% 0;
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+
+}

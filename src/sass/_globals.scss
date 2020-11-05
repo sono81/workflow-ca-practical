@@ -1,0 +1,65 @@
+/*-- Reset Margins --*/
+html,
+body,
+header,
+nav,
+main,
+footer,
+h1,
+h2,
+p,
+a,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+/*-- Clearfix --*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*-- Global --*/
+
+body {
+    width: 100%;
+    font-family: 'Unna', serif;
+    background: $light;
+}
+
+header,
+footer {
+    background: $blue;
+}
+
+h1,
+h2 {
+    font-family: 'Allerta', sans-serif;
+}
+
+main {
+    background: $light;
+    padding-bottom: 4%;
+}
+
+nav {
+    background: $blue;
+}
+
+table {
+    width: 100%;
+    margin: 4% 0;
+    background: $white;
+}
+
+th {
+    width: 100%;
+    text-align: left;
+    background: $light;
+}
+
+.leftTableWidth {
+    width: 25%;
+}
